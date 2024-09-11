@@ -1,0 +1,20 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "my-app",
+    "next",
+    "supabase"
+  ],
+  "packageManager": "npm@10.8.3",  
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "turbo": "^1.0.0"
+  }
+}
